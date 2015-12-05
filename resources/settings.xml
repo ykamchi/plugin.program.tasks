@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="Login">
+        <setting label="User Name" type="text"   id="username" default=""/>		
+		<setting label="Default View" type="select"   id="default_view" values="day|month|week" default="month"/>
+		<setting label="Media Path" type="select"   id="media_path" values="black_on_white|blue|dark|happy|black" default="black_on_white"/>
+        <!---setting label="Password" type="text"   id="password" option="hidden"  enable="!eq(-1,)" default=""/-->
+        <!--setting label="32053" type="slider" id="limit" subsetting="true" default="20" range="5,5,100" option="int" /-->
+        <!--setting type="sep"/-->
+        <!--setting id="debug" type="bool" label="debug" default="false"/-->
+		<!--setting id="id_select" type="select" label="Select" values="One|Two|Three|Four" /-->
+    </category>
+    <category label="Colors">
+        <setting label="Font Regular" type="select"   id="regular_font_color" values="black|gray|white|aqua|red|green|blue|yellow|fuchsia|cyan" default="white"/>
+        <setting label="Font Labels" type="select"   id="lable_font_color" values="black|gray|white|aqua|red|green|blue|yellow|fuchsia|cyan" default="white"/>
+		<setting label="Font Selected" type="select"   id="selected_font_color" values="black|gray|white|aqua|red|green|blue|yellow|fuchsia|cyan" default="blue"/>
+		<setting label="Font Header" type="select"   id="header_font_color" values="black|gray|white|aqua|red|green|blue|yellow|fuchsia|cyan" default="green"/>
+		<setting label="Font Focuse" type="select"   id="focuse_font_color" values="black|gray|white|aqua|red|green|blue|yellow|fuchsia|cyan" default="yellow"/>
+    </category>
+</settings>

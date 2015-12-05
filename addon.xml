@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.tasks" name="tasks" version="1.1.2" provider-name="ykamchi">
+    <requires>
+        <import addon="xbmc.python" version="2.12.0"/>
+        <!--import addon="xbmc.python" version="2.0"/-->
+		<import addon="script.module.pytz"/>
+		<import addon="script.module.addon.common"/>
+		<import addon="script.module.httplib2" version="0.8.0"/>
+		<import addon="script.module.oauth2client"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <disclaimer>todo disclaimer</disclaimer>
+        <summary lang="en">todo summary</summary>
+        <description lang="en">todo dedication</description>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <language/>
+        <website>http://www.ynet.co.il</website>
+        <email>ykamchi@gmail.com</email>
+    </extension>
+</addon>
